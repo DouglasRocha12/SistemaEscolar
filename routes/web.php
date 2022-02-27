@@ -3,6 +3,7 @@
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use App\Http\Controllers\AuthUser;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +28,10 @@ Route::get('/', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->name('dashboard');
+
+
+Route::get('/home', [AuthUser::class, 'home']);
+Route::get('/aluno/cadastrar', [AuthUser::class, 'alunos_cadastrar']);
+Route::get('/aluno/lista', [AuthUser::class, 'alunos_listar']);
+Route::get('/curso/cadastrar', [AuthUser::class, 'cursos_cadastrar']);
+Route::get('/curso/lista', [AuthUser::class, 'cursos_listar']);

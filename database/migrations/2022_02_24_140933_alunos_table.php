@@ -19,7 +19,11 @@ return new class extends Migration
             $table->bigInteger('document')->unique();
             $table->string('email');
             $table->date('data');   
-            $table->longText('end')->nullable();
+            $table->string('rua')->nullable();
+            $table->bigInteger('numero')->nullable();
+            $table->bigInteger('cep')->nullable();
+            $table->string('bairro')->nullable();
+            $table->string('cidade')->nullable();
             $table->timestamps();
         });
     }
