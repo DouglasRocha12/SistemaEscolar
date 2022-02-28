@@ -1,3 +1,28 @@
+## Requisitos para o Sistema
+Composer
+Node.js
+mysql
+php 8.0 ou superior
+
+
+## instalação do sistema
+
+Apôs clonar o sistemas utilize os seguintes processo (requisitos a cima deve esta cumpridos);
+1 - criar ao banco que sera utilizado
+2 - alterar o .env com o banco que sera utilizado
+3 - utilizar o comando 'composer install'
+4 - utilizar o comando  'npm install'
+5 - gerar a key 'php artisan key:generate
+6 - roda a migrate para criação das tabelas 'php artisan migrate'
+7 - (não obrigartorio, e possivel criar usuarios pela rota '/register')criar o usuario padrão 'php artisan db:seed --class=UserSeeder'
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">

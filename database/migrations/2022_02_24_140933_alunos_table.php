@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('name');
             $table->bigInteger('document')->unique();
             $table->string('email');
-            $table->date('data');   
+            $table->date('data')->nullable();   
             $table->string('rua')->nullable();
             $table->bigInteger('numero')->nullable();
             $table->bigInteger('cep')->nullable();

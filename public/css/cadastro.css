@@ -1,0 +1,33 @@
+#msform section:not(:first-of-type){
+    display: none;
+}
+.sombra {
+    padding: 20px;
+    /* background: #006e73;  */
+    /* box-shadow: 5px 5px 5px 5px rgba(122, 122, 122, .5); */
+    margin: auto;
+}
+
+/* .img-upload {
+    display: none;
+
+} */
+/* label{
+    text-transform: uppercase;
+    font-weight: bold;
+    display:block;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+} */
+/* .text-label{
+    text-transform: uppercase;
+    font-weight: bold;
+    display:block;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+} */
+
+
+.ui.action.input input[type="file"] {
+    display: none;
+  }

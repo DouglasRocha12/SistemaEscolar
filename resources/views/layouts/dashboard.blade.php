@@ -1,6 +1,3 @@
-<?php
-use App\Http\Controllers\PermissionController; 
-?>
 
 <!DOCTYPE html>
 
@@ -45,7 +42,7 @@ use App\Http\Controllers\PermissionController;
                 <i class="content icon"></i>
             </a>
             <div class="item">
-                cultura.am
+               Sistema Escola
             </div>
         </div>
     </div>
@@ -71,9 +68,9 @@ use App\Http\Controllers\PermissionController;
                     <div class="ui container">
                         <div class="ui stackable grid">
                             <div class="three wide column">
-                                <h4 class="ui header">Cultura.am</h4>
+                                <h4 class="ui header">Sistema</h4>
                                 <div class="ui link list">
-                                    <a class="item" href="https://cultura.am.gov.br/" target="_blank">Portal da cultura</a>
+                                    <a class="item" href="" target="_blank">Portal</a>
                                     <a class="item" href="" target="_blank">Perguntas frequentes</a>
                                     <a class="item" href="" target="_blank">Contato</a>
                                 </div>
@@ -81,19 +78,16 @@ use App\Http\Controllers\PermissionController;
                             <div class="three wide column">
                                 <h4 class="ui header">Serviços ao cidadão</h4>
                                 <div class="ui link list">
-                                    <a class="item" href="{{'https://cadastroestadual'.env('SESSION_DOMAIN')}}" target="_blank">Cadastro estadual de cultura</a>
-                                    <a class="item" href="{{'https://editais'.env('SESSION_DOMAIN')}}" target="_blank">Editais da cultura</a>
-                                    <a class="item" href="{{'https://catalogoleialdirblanc'.env('SESSION_DOMAIN')}}">Catálogo de projetos</a>
+                                    <a class="item" href="" target="_blank">Suporte</a>
+                                    <a class="item" href="" target="_blank">SAC</a>
+                                    <a class="item" href="">Sobre</a>
                                 </div>
                             </div>
                             <div class="seven wide right floated column">
-                                <img src="/img/secretaria.svg" style="height: 48px; margin: 8px;">
-                                <img src="/img/estado.svg" style="height: 48px; margin: 8px;">
-                                <img src="/img/cultura.svg" style="height: 48px; margin: 8px;">
+                                
                                 <div class="ui inverted link list">
                                     <a class="item"
-                                        href="https://cultura.am.gov.br/portal/index.php/equipe-do-portal/">Desenvolvimento:
-                                        Inovação e Tecnologia Audiovisual</ </div>
+                                        href="">Douglas Rocha</div>
                                 </div>
                             </div>
                         </div>
