@@ -1,20 +1,20 @@
 ## Requisitos para o Sistema
-Composer
-Node.js
-mysql
-php 8.0 ou superior
+<p>Composer</p>
+<p>Node.js</p>
+<p>mysql</p>
+<p>php 8.0 ou superior</p>
 
 
 ## instalação do sistema
 
-Apôs clonar o sistemas utilize os seguintes processo (requisitos a cima deve esta cumpridos);
-1 - criar ao banco que sera utilizado
-2 - alterar o .env com o banco que sera utilizado
-3 - utilizar o comando 'composer install'
-4 - utilizar o comando  'npm install'
-5 - gerar a key 'php artisan key:generate
-6 - roda a migrate para criação das tabelas 'php artisan migrate'
-7 - (não obrigartorio, e possivel criar usuarios pela rota '/register')criar o usuario padrão 'php artisan db:seed --class=UserSeeder'
+<p>Apôs clonar o sistemas utilize os seguintes processo (requisitos a cima deve esta cumpridos);</p>
+<p>1 - criar ao banco que sera utilizado</p>
+<p>2 - alterar o .env com o banco que sera utilizado</p>
+<p>3 - utilizar o comando 'composer install'</p>
+<p>4 - utilizar o comando  'npm install'</p>
+<p>5 - gerar a key 'php artisan key:generate</p>
+<p>6 - roda a migrate para criação das tabelas 'php artisan migrate'</p>
+<p>7 - (não obrigartorio, e possivel criar usuarios pela rota '/register')criar o usuario padrão 'php artisan db:seed --class=UserSeeder'</p>
 
 
 
